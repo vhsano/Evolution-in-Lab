@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AchivementActivity"
+    android:background="@drawable/background_01">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="341dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/setting_icon" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="40dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/paper_02" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="310dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/exit" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1.1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Mở khóa Archaea"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F43E71"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton1_2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="#8BC34A"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hand" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2.1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Mở khóa Paramecium"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F43E71"/>
+
+
+                <ImageButton
+                    android:id="@+id/imageButton2_2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="#8BC34A"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hand" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3.1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Mở khóa Noctilucales"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F43E71"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton3_2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="#8BC34A"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hand" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4.1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Đạt 1M DNA"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F43E71"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton4_2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="#8BC34A"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hand" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView5.1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Đạt 500M DNA"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F43E71"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton5_2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="#8BC34A"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hand" />
+
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6.1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Đạt 1B DNA"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F43E71"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton6_2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="#8BC34A"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hand" />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7.1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Mở khóa Era Jura"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F43E71"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton7_2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="#8BC34A"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hand" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8.1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="!!!!!!!!!"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F43E71"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton8_2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="#8BC34A"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hand" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9.1"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="!!!!!!!!!"
+                    android:textSize="22dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F43E71"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton9_2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="#8BC34A"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hand" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="84dp"
+        android:gravity="center"
+        android:text="ACHIVEMENT"
+        android:textColor="#FF5733"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

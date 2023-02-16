@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6F6E5"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+
+
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/magz"
+        android:gravity="center"
+        android:shadowColor="#FFFD47"
+        android:shadowDx="10"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="Setting"
+        android:textAlignment="center"
+        android:textColor="#03989E"
+        android:textSize="95sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchCompat"
+        android:layout_width="330dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:fontFamily="@font/magz"
+        android:shadowColor="#FFFD47"
+        android:shadowDx="10"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="Music"
+        android:textColor="#03989E"
+        android:textSize="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:track="@drawable/track"></androidx.appcompat.widget.SwitchCompat>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchCompat2"
+        android:layout_width="330dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:fontFamily="@font/magz"
+        android:shadowColor="#FFFD47"
+        android:shadowDx="10"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="Sounds"
+        android:textColor="#03989E"
+        android:textSize="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchCompat"
+        app:track="@drawable/track"></androidx.appcompat.widget.SwitchCompat>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="218dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/magz"
+        android:shadowColor="#FFFD47"
+        android:shadowDx="10"
+        android:shadowDy="2"
+        android:shadowRadius="8"
+        android:text="RATE"
+        android:textAlignment="center"
+        android:textColor="#03989E"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchCompat2" />
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:color="#03989E"
+        android:numStars="5"
+        android:rating="4.5"
+        android:shape="rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    <FrameLayout
+        android:layout_width="239dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="0dp">
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="239dp"
+            android:layout_height="125dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/button">
+        </ImageButton>
+
+        <TextView
+            android:layout_width="239dp"
+            android:layout_height="125dp"
+            android:gravity="center"
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"></TextView>
+    </FrameLayout>
+</LinearLayout>
